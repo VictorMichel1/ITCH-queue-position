@@ -28,7 +28,7 @@ pessimistic bias, shares     +420.6   +804.2   +109.6    +99.3
 proportional bias, shares    -108.1   -254.3    -15.8     -8.1
 ```
 
-A passive fill is losing money a second later in all four stocks. It earns about half the spread against the mid just before the trade, then the mid moves through it; the losses are 3.7 (AAPL) to 15 (INTC) standard errors below zero, clustered by minute. Nasdaq paid $0.0029 a share for adding liquidity to firms above 0.70% of consolidated volume ([SR-NASDAQ-2019-101](https://www.sec.gov/files/rules/sro/nasdaq/2020/34-87882.pdf)): most of the CSCO loss, under a third of AAPL's.
+An order that joins the back of the queue and gets filled is losing money a second later in all four stocks. It earns about half the spread against the mid just before the trade, then the mid moves through it; the losses are 3.7 (AAPL) to 15 (INTC) standard errors below zero, clustered by minute. Nasdaq paid $0.0029 a share for adding liquidity to firms above 0.70% of consolidated volume ([SR-NASDAQ-2019-101](https://www.sec.gov/files/rules/sro/nasdaq/2020/34-87882.pdf)): most of the CSCO loss, under a third of AAPL's.
 
 Assuming every cancel came from behind you overstates queue position by 804 shares on average in CSCO (measured as each order leaves the queue; the best price holds about 1,450). Spreading cancels evenly through the queue is closest in all four.
 
