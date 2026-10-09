@@ -1,0 +1,456 @@
+{
+  "messages_for_targets": 521902,
+  "messages_scanned": 521907,
+  "seconds": 3.3,
+  "scan_rate_msgs_per_sec": 159164,
+  "clock_from": "09:30:00",
+  "clock_to": "10:59:59",
+  "symbols": {
+    "SIMA": {
+      "events": 263388,
+      "hidden_trades": 4670,
+      "orders_posted": 988,
+      "outcomes": {
+        "outbid": 290,
+        "swept": 84,
+        "filled": 590,
+        "emptied": 20,
+        "alone": 2,
+        "timeout": 2
+      },
+      "fill_rate_strict": 0.5972,
+      "fill_rate_with_sweeps": 0.6822,
+      "fill_rate_upper": 0.7024,
+      "price_time_violations": 0,
+      "violation_rate": 0.0,
+      "violations_share_of_strict_fills": 0.0,
+      "strict_fills_under_size": 0,
+      "strict_fills_maybe_partial": 0.0,
+      "crossed_book_events": 0,
+      "integrity_checks": 258718,
+      "matches_generator": [
+        315,
+        315,
+        315
+      ],
+      "orphan_messages": 0,
+      "touch": {
+        "samples": 649,
+        "mean_price": 20.07,
+        "tick_bp": 4.98,
+        "mean_spread_ticks": 1.02,
+        "mean_touch_depth": 15761
+      },
+      "markouts_ticks": {
+        "filled": {
+          "n": 590,
+          "edge": [
+            0.5,
+            0.0
+          ],
+          "move_1s": [
+            -0.1941,
+            0.0157
+          ],
+          "markout_1s": [
+            0.3059,
+            0.0157
+          ],
+          "n_1s": 590,
+          "move_10s": [
+            -0.3678,
+            0.0263
+          ],
+          "markout_10s": [
+            0.1322,
+            0.0263
+          ],
+          "n_10s": 590
+        },
+        "swept": {
+          "n": 84,
+          "edge": [
+            0.506,
+            0.006
+          ],
+          "move_1s": [
+            -0.8988,
+            0.0345
+          ],
+          "markout_1s": [
+            -0.3929,
+            0.0336
+          ],
+          "n_1s": 84,
+          "move_10s": [
+            -0.6845,
+            0.0831
+          ],
+          "markout_10s": [
+            -0.1786,
+            0.0817
+          ],
+          "n_10s": 84
+        },
+        "emptied": {
+          "n": 20,
+          "edge": [
+            0.5,
+            0.0
+          ],
+          "move_1s": [
+            -0.925,
+            0.0521
+          ],
+          "markout_1s": [
+            -0.425,
+            0.0521
+          ],
+          "n_1s": 20,
+          "move_10s": [
+            -1.05,
+            0.1543
+          ],
+          "markout_10s": [
+            -0.55,
+            0.1543
+          ],
+          "n_10s": 20
+        }
+      },
+      "estimator_error": {
+        "pessimistic": {
+          "n": 900,
+          "mean_bias_shares": 2886.9,
+          "mean_abs_error_shares": 2886.9
+        },
+        "optimistic": {
+          "n": 900,
+          "mean_bias_shares": -995.4,
+          "mean_abs_error_shares": 995.4
+        },
+        "proportional": {
+          "n": 900,
+          "mean_bias_shares": -498.4,
+          "mean_abs_error_shares": 537.9
+        }
+      },
+      "by_initial_queue": {
+        "200-1k": {
+          "orders": 45,
+          "fill_rate": 0.6667,
+          "fill_rate_upper": 0.9556,
+          "markout_1s_ticks": 0.3667,
+          "markout_1s_n": 30
+        },
+        "1k-5k": {
+          "orders": 216,
+          "fill_rate": 0.7037,
+          "fill_rate_upper": 0.8796,
+          "markout_1s_ticks": 0.3816,
+          "markout_1s_n": 152
+        },
+        "5k-20k": {
+          "orders": 470,
+          "fill_rate": 0.6106,
+          "fill_rate_upper": 0.7149,
+          "markout_1s_ticks": 0.2683,
+          "markout_1s_n": 287
+        },
+        "20k+": {
+          "orders": 254,
+          "fill_rate": 0.4685,
+          "fill_rate_upper": 0.4803,
+          "markout_1s_ticks": 0.2815,
+          "markout_1s_n": 119
+        }
+      },
+      "book_at_1030": {
+        "clock": "10:30:00",
+        "bids": [
+          [
+            201700,
+            19300
+          ],
+          [
+            201600,
+            12900
+          ],
+          [
+            201500,
+            10500
+          ],
+          [
+            201400,
+            4900
+          ],
+          [
+            201300,
+            1700
+          ],
+          [
+            201200,
+            400
+          ],
+          [
+            201100,
+            400
+          ]
+        ],
+        "asks": [
+          [
+            201800,
+            2800
+          ],
+          [
+            201900,
+            24400
+          ],
+          [
+            202000,
+            10500
+          ],
+          [
+            202100,
+            3300
+          ],
+          [
+            202200,
+            100
+          ],
+          [
+            202300,
+            500
+          ]
+        ]
+      }
+    },
+    "SIMB": {
+      "events": 258514,
+      "hidden_trades": 5384,
+      "orders_posted": 1628,
+      "outcomes": {
+        "swept": 221,
+        "outbid": 693,
+        "emptied": 368,
+        "alone": 26,
+        "filled": 320
+      },
+      "fill_rate_strict": 0.1966,
+      "fill_rate_with_sweeps": 0.3323,
+      "fill_rate_upper": 0.5584,
+      "price_time_violations": 0,
+      "violation_rate": 0.0,
+      "violations_share_of_strict_fills": 0.0,
+      "strict_fills_under_size": 0,
+      "strict_fills_maybe_partial": 0.0,
+      "crossed_book_events": 0,
+      "integrity_checks": 253130,
+      "matches_generator": [
+        127,
+        127,
+        127
+      ],
+      "orphan_messages": 0,
+      "touch": {
+        "samples": 814,
+        "mean_price": 299.68,
+        "tick_bp": 0.33,
+        "mean_spread_ticks": 1.63,
+        "mean_touch_depth": 653
+      },
+      "markouts_ticks": {
+        "filled": {
+          "n": 320,
+          "edge": [
+            0.6297,
+            0.0146
+          ],
+          "move_1s": [
+            -0.4062,
+            0.0601
+          ],
+          "markout_1s": [
+            0.2234,
+            0.0641
+          ],
+          "n_1s": 320,
+          "move_10s": [
+            -0.7344,
+            0.224
+          ],
+          "markout_10s": [
+            -0.1047,
+            0.2256
+          ],
+          "n_10s": 320
+        },
+        "swept": {
+          "n": 221,
+          "edge": [
+            0.8303,
+            0.0422
+          ],
+          "move_1s": [
+            -1.0724,
+            0.1
+          ],
+          "markout_1s": [
+            -0.2421,
+            0.1016
+          ],
+          "n_1s": 221,
+          "move_10s": [
+            -1.7828,
+            0.348
+          ],
+          "markout_10s": [
+            -0.9525,
+            0.346
+          ],
+          "n_10s": 221
+        },
+        "emptied": {
+          "n": 368,
+          "edge": [
+            0.7473,
+            0.0321
+          ],
+          "move_1s": [
+            -0.8859,
+            0.065
+          ],
+          "markout_1s": [
+            -0.1386,
+            0.0681
+          ],
+          "n_1s": 368,
+          "move_10s": [
+            -2.0313,
+            0.2692
+          ],
+          "markout_10s": [
+            -1.2834,
+            0.2719
+          ],
+          "n_10s": 367
+        }
+      },
+      "estimator_error": {
+        "pessimistic": {
+          "n": 564,
+          "mean_bias_shares": 153.5,
+          "mean_abs_error_shares": 153.5
+        },
+        "optimistic": {
+          "n": 564,
+          "mean_bias_shares": -31.7,
+          "mean_abs_error_shares": 31.7
+        },
+        "proportional": {
+          "n": 564,
+          "mean_bias_shares": -5.1,
+          "mean_abs_error_shares": 27.1
+        }
+      },
+      "by_initial_queue": {
+        "0-200": {
+          "orders": 275,
+          "fill_rate": 0.1964,
+          "fill_rate_upper": 0.68,
+          "markout_1s_ticks": 0.6019,
+          "markout_1s_n": 54
+        },
+        "200-1k": {
+          "orders": 978,
+          "fill_rate": 0.182,
+          "fill_rate_upper": 0.5389,
+          "markout_1s_ticks": 0.3118,
+          "markout_1s_n": 178
+        },
+        "1k-5k": {
+          "orders": 375,
+          "fill_rate": 0.2347,
+          "fill_rate_upper": 0.52,
+          "markout_1s_ticks": -0.1875,
+          "markout_1s_n": 88
+        }
+      },
+      "book_at_1030": {
+        "clock": "10:30:00",
+        "bids": [
+          [
+            2992300,
+            1100
+          ],
+          [
+            2992200,
+            1400
+          ],
+          [
+            2992100,
+            900
+          ],
+          [
+            2992000,
+            800
+          ],
+          [
+            2991900,
+            300
+          ],
+          [
+            2991800,
+            500
+          ],
+          [
+            2991600,
+            100
+          ]
+        ],
+        "asks": [
+          [
+            2992600,
+            200
+          ],
+          [
+            2992700,
+            100
+          ],
+          [
+            2992800,
+            400
+          ],
+          [
+            2992900,
+            100
+          ],
+          [
+            2993200,
+            700
+          ],
+          [
+            2993500,
+            900
+          ],
+          [
+            2993600,
+            200
+          ],
+          [
+            2993700,
+            400
+          ],
+          [
+            2993800,
+            1200
+          ],
+          [
+            2993900,
+            1500
+          ]
+        ]
+      }
+    }
+  }
+}

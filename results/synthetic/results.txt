@@ -1,0 +1,63 @@
+==========================================================================
+QUEUE POSITION STUDY
+==========================================================================
+521,902 messages for the target symbols, 521,907 scanned in total, 3.3s
+exchange clock 09:30:00 to 10:59:59
+
+SIMA   263,388 events   988 hypothetical orders
+  price 20.07   tick 4.98 bp   spread 1.02 ticks   touch depth 15,761 shares
+  outcomes: {'outbid': 290, 'swept': 84, 'filled': 590, 'emptied': 20, 'alone': 2, 'timeout': 2}
+  fill rate: 59.7% strict, 68.2% with confirmed sweeps, 70.2% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 0
+  book integrity: crossed=0 in 258,718 checks, orphans=0
+  rebuilt book against the generator's at the end: 315 of 315 resting orders identical, 315 in the rebuilt book
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     590 +0.500 (0.000) -0.194 (0.016) +0.306 (0.016) +0.132 (0.026)
+    swept       84 +0.506 (0.006) -0.899 (0.035) -0.393 (0.034) -0.179 (0.082)
+    emptied     20 +0.500 (0.000) -0.925 (0.052) -0.425 (0.052) -0.550 (0.154)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias  +2886.9   mae   2886.9   n=900
+    optimistic     bias   -995.4   mae    995.4   n=900
+    proportional   bias   -498.4   mae    537.9   n=900
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    200-1k          45  66.7%   95.6%      +0.367
+    1k-5k          216  70.4%   88.0%      +0.382
+    5k-20k         470  61.1%   71.5%      +0.268
+    20k+           254  46.9%   48.0%      +0.281
+
+SIMB   258,514 events   1628 hypothetical orders
+  price 299.68   tick 0.33 bp   spread 1.63 ticks   touch depth 653 shares
+  outcomes: {'swept': 221, 'outbid': 693, 'emptied': 368, 'alone': 26, 'filled': 320}
+  fill rate: 19.7% strict, 33.2% with confirmed sweeps, 55.8% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 0
+  book integrity: crossed=0 in 253,130 checks, orphans=0
+  rebuilt book against the generator's at the end: 127 of 127 resting orders identical, 127 in the rebuilt book
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     320 +0.630 (0.015) -0.406 (0.060) +0.223 (0.064) -0.105 (0.226)
+    swept      221 +0.830 (0.042) -1.072 (0.100) -0.242 (0.102) -0.953 (0.346)
+    emptied    368 +0.747 (0.032) -0.886 (0.065) -0.139 (0.068) -1.283 (0.272)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias   +153.5   mae    153.5   n=564
+    optimistic     bias    -31.7   mae     31.7   n=564
+    proportional   bias     -5.1   mae     27.1   n=564
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    0-200          275  19.6%   68.0%      +0.602
+    200-1k         978  18.2%   53.9%      +0.312
+    1k-5k          375  23.5%   52.0%      -0.188
+
+summary                        SIMA     SIMB
+tick, bp of price              4.98     0.33
+hypothetical orders             988     1628
+filled, strict                59.7%    19.7%
+filled, upper bound           70.2%    55.8%
+strict fills maybe partial       0%       0%
+markout after 1s, ticks      +0.306   +0.223
+  standard error              0.016    0.064
+pessimistic bias, shares    +2886.9   +153.5
+proportional bias, shares    -498.4     -5.1

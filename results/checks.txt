@@ -1,0 +1,22 @@
+1. executions at a worse level than the previous execution on the same
+   side, all four stocks, by time since that previous execution:
+   same nanosecond      1,934
+   1 to 999 ns              2
+   1 to 999 us          2,111
+   1 ms or more        16,776
+
+2. executions from 09:32
+                                           INTC    CSCO    MSFT    AAPL
+   at display                            14,885   7,430  42,794  26,276
+   at display, skipped the front            146      35      51     509
+   at another price                         442     300     316      84
+     better for the incoming order          442     300     316      84
+     order displayed at the best price      442     300     316      84
+   share at display that skipped          0.98%   0.47%   0.12%   1.94%
+
+3. trading state messages (T = trading, H = halted, P/Q = paused/quoting)
+   AAPL 03:07:15 T
+   CSCO 03:07:15 T
+   INTC 03:07:15 T
+   MSFT 03:07:15 T
+   cross trades: INTC 1, CSCO 1, MSFT 1, AAPL 1

@@ -1,0 +1,105 @@
+==========================================================================
+QUEUE POSITION STUDY
+==========================================================================
+3,148,600 messages for the target symbols, 204,188,699 scanned in total, 147.8s
+exchange clock 04:00:00 to 12:28:52
+
+INTC   683,535 events   4196 hypothetical orders
+  price 65.66   tick 1.52 bp   spread 1.15 ticks   touch depth 805 shares
+  outcomes: {'emptied': 682, 'outbid': 2060, 'alone': 654, 'filled': 777, 'swept': 21, 'timeout': 2}
+  fill rate: 18.5% strict, 19.0% with confirmed sweeps, 35.3% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 233
+  book integrity: crossed=0 in 681,060 checks, orphans=0
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     777 +0.504 (0.003) -0.946 (0.029) -0.441 (0.029) -0.439 (0.074)
+    swept       21 +0.500 (0.000) -0.691 (0.118) -0.191 (0.118) -0.571 (0.387)
+    emptied    682 +0.504 (0.002) -0.985 (0.037) -0.481 (0.037) -0.558 (0.074)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias   +420.6   mae    420.6   n=3786
+    optimistic     bias   -167.4   mae    167.4   n=3786
+    proportional   bias   -108.1   mae    112.7   n=3786
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    0-200          328  12.5%   46.3%      -0.342
+    200-1k        2661  19.9%   38.1%      -0.428
+    1k-5k         1199  17.0%   25.9%      -0.495
+
+CSCO   496,652 events   2538 hypothetical orders
+  price 46.59   tick 2.15 bp   spread 1.14 ticks   touch depth 1,450 shares
+  outcomes: {'outbid': 1233, 'emptied': 347, 'filled': 647, 'alone': 279, 'swept': 24, 'timeout': 8}
+  fill rate: 25.5% strict, 26.4% with confirmed sweeps, 40.1% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 203
+  book integrity: crossed=0 in 495,446 checks, orphans=0
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     647 +0.508 (0.003) -0.840 (0.027) -0.332 (0.026) -0.402 (0.049)
+    swept       24 +0.500 (0.000) -0.646 (0.091) -0.146 (0.091) -0.042 (0.405)
+    emptied    347 +0.509 (0.006) -0.974 (0.030) -0.465 (0.029) -0.395 (0.079)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias   +804.2   mae    804.2   n=2318
+    optimistic     bias   -355.4   mae    355.4   n=2318
+    proportional   bias   -254.3   mae    263.1   n=2318
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    0-200          180  20.6%   55.0%      -0.176
+    200-1k         829  24.9%   43.5%      -0.352
+    1k-5k         1495  26.6%   36.7%      -0.334
+    5k-20k          34  20.6%   26.5%           -
+
+MSFT   972,542 events   5922 hypothetical orders
+  price 172.27   tick 0.58 bp   spread 1.78 ticks   touch depth 298 shares
+  outcomes: {'emptied': 1028, 'outbid': 3038, 'alone': 1127, 'swept': 32, 'filled': 697}
+  fill rate: 11.8% strict, 12.3% with confirmed sweeps, 29.7% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 334
+  book integrity: crossed=0 in 959,948 checks, orphans=0
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     697 +0.646 (0.018) -1.286 (0.084) -0.641 (0.078) -1.458 (0.223)
+    swept       32 +1.016 (0.164) -3.141 (0.822) -2.125 (0.818) -4.891 (2.409)
+    emptied   1028 +0.639 (0.017) -1.218 (0.075) -0.579 (0.071) -1.254 (0.242)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias   +109.6   mae    109.6   n=3700
+    optimistic     bias    -33.9   mae     33.9   n=3700
+    proportional   bias    -15.8   mae     21.8   n=3700
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    0-200         2450  11.2%   32.6%      -0.589
+    200-1k        3325  12.0%   27.0%      -0.682
+    1k-5k          129  16.3%   41.1%      -0.548
+
+AAPL   995,871 events   4895 hypothetical orders
+  price 321.92   tick 0.31 bp   spread 3.59 ticks   touch depth 185 shares
+  outcomes: {'outbid': 2416, 'filled': 151, 'emptied': 861, 'alone': 1448, 'swept': 19}
+  fill rate: 3.1% strict, 3.5% with confirmed sweeps, 21.1% if emptied levels count
+  price-time violations: 0 (0.000% of orders, 0.0% of strict fills)
+  strict fills where the first trade behind us was under our size: 86
+  book integrity: crossed=0 in 987,556 checks, orphans=0
+  per fill, in ticks, + is in our favour (standard errors clustered by minute):
+                 n   half spread   mid move 1s    markout 1s   markout 10s
+    filled     151 +1.291 (0.053) -2.225 (0.248) -0.934 (0.252) -0.586 (0.819)
+    swept       19 +1.710 (0.215) -2.658 (0.754) -0.947 (0.761) +0.947 (2.125)
+    emptied    861 +1.221 (0.021) -2.170 (0.112) -0.949 (0.108) -0.422 (0.301)
+  queue estimator error in shares (+ means it thinks you are further back):
+    pessimistic    bias    +99.3   mae     99.3   n=2608
+    optimistic     bias    -15.7   mae     15.7   n=2608
+    proportional   bias     -8.1   mae     10.6   n=2608
+  by shares ahead at join:
+    bucket      orders    fill    upper  markout 1s
+    0-200         3254   2.6%   22.3%      -0.747
+    200-1k        1583   3.7%   17.6%      -1.069
+    1k-5k           48  16.7%   47.9%           -
+
+summary                        INTC     CSCO     MSFT     AAPL
+tick, bp of price              1.52     2.15     0.58     0.31
+hypothetical orders            4196     2538     5922     4895
+filled, strict                18.5%    25.5%    11.8%     3.1%
+filled, upper bound           35.3%    40.1%    29.7%    21.1%
+strict fills maybe partial      30%      31%      48%      57%
+markout after 1s, ticks      -0.441   -0.332   -0.641   -0.934
+  standard error              0.029    0.026    0.078    0.252
+pessimistic bias, shares     +420.6   +804.2   +109.6    +99.3
+proportional bias, shares    -108.1   -254.3    -15.8     -8.1
